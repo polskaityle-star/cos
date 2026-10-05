@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1791194728897",
+    "name": "Site User",
+    "email": "siteuser@example.com",
+    "password": "$2b$10$ru8leAOVVZsWCYxlO5.bZO4XaGyC/IXRH./lRxINRvz5Xyq9W4hbG",
+    "role": "driver",
+    "carriers": [
+      "VMPK Kielce"
+    ],
+    "recruitmentStatus": "APPROVED"
+  },
+  {
+    "id": "1791194729041",
+    "name": "Recruit User",
+    "email": "recruituser@example.com",
+    "password": "$2b$10$GU1bVzRw0FWSQ1cn1/ZdveAv.x05GSPGDxlH176t7oLVkXHzBgm5u",
+    "role": "driver",
+    "carriers": [
+      "VMPK Kielce"
+    ],
+    "recruitmentStatus": "REJECTED"
+  },
+  {
+    "id": "1791194785354",
+    "name": "Godksawiss",
+    "email": "godksawiss@vztm-kielce.pl",
+    "password": "$2b$10$A.ivWYruxGqI4Ar1MzHgGuPcSxbRIxAoLIU6xNqnecxSZDIMmiOL.",
+    "role": "admin",
+    "carriers": [
+      "VMPK Kielce",
+      "VBP Tour Regio Kielce"
+    ],
+    "recruitmentStatus": "APPROVED"
+  }
+]

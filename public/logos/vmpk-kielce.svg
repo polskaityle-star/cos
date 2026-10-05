@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 480" role="img" aria-labelledby="title">
+  <title id="title">VMPK Kielce</title>
+  <g fill="#075a9a" stroke="#16384c" stroke-width="6">
+    <path d="M0 190h260l25 34H12zM20 235h255l24 32H31zM40 277h253l24 31H50zM62 318h242l27 31H75z"/>
+    <path d="M768 190H508l-25 34h273zM748 235H493l-24 32h266zM728 277H475l-24 31h267zM706 318H464l-27 31h256z"/>
+  </g>
+  <path d="M285 42h198v168c0 76-39 112-99 145-60-33-99-69-99-145z" fill="#df291b" stroke="#17394c" stroke-width="6"/>
+  <g fill="#ffe000" stroke="#b89e00" stroke-width="3">
+    <path d="M308 86l16-23 19 17 18-26 18 23 20-25 18 26 20-17 15 25-13 13H320z"/>
+    <path d="M322 111q62-34 124 0l-12 14H334zM335 137q49-24 98 0l-10 12h-78z"/>
+    <circle cx="343" cy="119" r="9"/><circle cx="370" cy="112" r="9"/><circle cx="398" cy="112" r="9"/><circle cx="425" cy="119" r="9"/>
+  </g>
+  <text x="384" y="205" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="800" fill="#ffe000">CK</text>
+  <path d="M278 356q106 94 212 0l-20 77q-86 59-172 0z" fill="#0861a4" stroke="#16384c" stroke-width="6"/>
+  <text x="384" y="397" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="39" font-weight="800" letter-spacing="5" fill="#fff" transform="rotate(-5 384 397)">VMPK</text>
+  <text x="384" y="456" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800" letter-spacing="6" fill="#fff">KIELCE</text>
+  <g fill="none" stroke="#ffe000" stroke-width="11" stroke-linecap="round">
+    <path d="M275 201q-35 15-4 39t-2 40t11 41"/><path d="M493 201q35 15 4 39t2 40t-11 41"/>
+  </g>
+</svg>

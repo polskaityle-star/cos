@@ -1,0 +1,23 @@
+[
+  {
+    "id": "regulamin",
+    "title": "Regulamin kierowcy",
+    "description": "PDF · 1.2 MB",
+    "type": "PDF",
+    "url": ""
+  },
+  {
+    "id": "mapa",
+    "title": "Mapa sieci",
+    "description": "PDF · 4.8 MB",
+    "type": "PDF",
+    "url": ""
+  },
+  {
+    "id": "malowanie",
+    "title": "Malowanie pojazdów",
+    "description": "ZIP · 18 MB",
+    "type": "ZIP",
+    "url": ""
+  }
+]

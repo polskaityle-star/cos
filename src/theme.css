@@ -1,0 +1,164 @@
+:root{--navy:#8f171b;--orange:#f0bd18;--cream:#fff8e1;--blue:#ffe7a3;--ink:#441014;color:#761519;background:#fff8e1}body{background:var(--cream);color:var(--navy)}.hero-visual{background:#f1cf58}.about-section,.footer-bottom{background:var(--navy)}.branch-card.orange{background:#f0bd18}.branch-card.blue{background:#ffe7a3}
+:root:not([data-theme="dark"]) .branch-card.orange{background:#dff5ff;color:#084f88}
+:root:not([data-theme="dark"]) .branch-card.orange .branch-number,:root:not([data-theme="dark"]) .branch-card.orange h3,:root:not([data-theme="dark"]) .branch-card.orange .card-link{color:#084f88;border-color:#084f88}
+:root:not([data-theme="dark"]) .branch-card.orange .card-label{color:#3686ad}
+:root:not([data-theme="dark"]) .branch-card.orange>p.branch-description{color:#08375d}
+
+:root[data-theme="dark"]{color-scheme:dark;--navy:#f5f5f5;--orange:#ffd400;--cream:#050505;--blue:#171717;--ink:#f5f5f5;--red:#df1736;color:#f5f5f5;background:#050505}
+:root[data-theme="dark"] body,:root[data-theme="dark"] .site-shell,:root[data-theme="dark"] .panel-page,:root[data-theme="dark"] .dashboard-section,:root[data-theme="dark"] .auth-modal{background:var(--cream);color:var(--navy)}
+:root[data-theme="dark"] .topbar,:root[data-theme="dark"] .panel-header,:root[data-theme="dark"] .nav-links{background:#0a0a0a;color:var(--navy)}
+:root[data-theme="dark"] .auth-modal input,:root[data-theme="dark"] .auth-modal select,:root[data-theme="dark"] .auth-modal textarea,:root[data-theme="dark"] .application-form input,:root[data-theme="dark"] .application-form select,:root[data-theme="dark"] .application-form textarea,:root[data-theme="dark"] .assignment-form input,:root[data-theme="dark"] .assignment-form select{background:#111;color:#f5f5f5;border-color:#494949}
+:root[data-theme="dark"] .dashboard-list article,:root[data-theme="dark"] .applications-table article,:root[data-theme="dark"] .messages-list article{background:#111;color:#f5f5f5}
+:root[data-theme="dark"] .about-section,:root[data-theme="dark"] .footer-bottom{background:#111;color:#f5f5f5}
+:root[data-theme="dark"] .about-section h2{color:#f5f5f5}
+:root[data-theme="dark"] .footer-main{background:#111;color:#f5f5f5}
+:root[data-theme="dark"] .footer-main p:not(.eyebrow),:root[data-theme="dark"] .footer-main .footer-note span{color:#d1d5db}
+:root[data-theme="dark"] .footer-main .brand,:root[data-theme="dark"] .footer-main .footer-email,:root[data-theme="dark"] .footer-main .footer-contact a{color:#f5f5f5}
+:root[data-theme="dark"] .branch-card.orange,:root[data-theme="dark"] .branch-card.blue{background:#a80f2d;color:#ffe000}
+:root[data-theme="dark"] .button-primary,:root[data-theme="dark"] .brand-mark{background:#df1736;color:#ffe000}
+:root[data-theme="dark"] .eyebrow,:root[data-theme="dark"] .panel-tabs button.is-active{color:#ffd400}
+:root[data-theme="dark"] .recruitment-notice{background:#df1736;color:#ffe000}
+:root[data-theme="dark"] .public-message-section{background:#101010;color:#f5f5f5}
+:root[data-carrier="vbp"]{--navy:#084f88;--orange:#3bbce8;--cream:#f3fbff;--blue:#dff5ff;--ink:#08375d;color:#08375d}
+:root[data-theme="dark"][data-carrier="vbp"]{--navy:#f4fbff;--orange:#50caff;--cream:#030b14;--blue:#082747;--ink:#e6f7ff;color:#f4fbff;background:#030b14}
+:root[data-theme="dark"][data-carrier="vbp"] .panel-page,:root[data-theme="dark"][data-carrier="vbp"] .dashboard-section{background:#030b14;color:#f4fbff}
+:root[data-theme="dark"][data-carrier="vbp"] .panel-header,:root[data-theme="dark"][data-carrier="vbp"] .dashboard-list article,:root[data-theme="dark"][data-carrier="vbp"] .applications-table article{background:#071a2c;color:#f4fbff}
+:root[data-theme="dark"] .branch-card.orange,:root[data-theme="dark"][data-carrier="vbp"] .branch-card.orange{background:#07558e;color:#fff}
+:root[data-theme="dark"][data-carrier="vbp"] .panel-tabs button.is-active{background:#0a5c98;color:#fff;border-color:#58caff}
+:root[data-carrier="vbp"] .carrier-switcher button.is-active{background:#0b6eab;color:#fff;border-color:#50caff}
+:root[data-theme="dark"][data-carrier="vbp"] .carrier-switcher button{border-color:#247bb0;color:#f4fbff}
+.brand-logo{width:54px;height:44px;object-fit:contain}
+.branch-logo{display:block;width:min(100%,180px);height:74px;object-fit:contain;margin:18px 0}
+.branch-card>p.branch-description{color:#34151a}
+:root[data-theme="dark"] .branch-card>p.branch-description{color:#fff}
+.vmpk-wordmark{fill:var(--navy)}
+.vmpk-city{fill:var(--ink)}
+:root[data-theme="dark"] .vmpk-wordmark,:root[data-theme="dark"] .vmpk-city{fill:#fff}
+.vmpk-bus-body{fill:#8f171b;stroke:#f0bd18}
+.vmpk-bus-window{fill:#fff8e1;stroke:#f0bd18}
+.vmpk-bus-divider{stroke:#8f171b}
+.vmpk-bus-grille{fill:#441014;stroke:#f0bd18}
+.vmpk-bus-grille-lines,.vmpk-bus-bumper{stroke:#f0bd18}
+.vmpk-bus-lamp{fill:#f0bd18;stroke:#441014}
+.vmpk-bus-wheel{fill:#441014;stroke:#f0bd18;stroke-width:3}
+:root[data-theme="dark"] .vmpk-bus-body{fill:#f0bd18;stroke:#441014}
+:root[data-theme="dark"] .vmpk-bus-window{fill:#fff8e1;stroke:#441014}
+:root[data-theme="dark"] .vmpk-bus-divider{stroke:#8f171b}
+:root[data-theme="dark"] .vmpk-bus-grille{fill:#441014;stroke:#8f171b}
+:root[data-theme="dark"] .vmpk-bus-grille-lines,:root[data-theme="dark"] .vmpk-bus-bumper{stroke:#8f171b}
+:root[data-theme="dark"] .vmpk-bus-lamp{fill:#8f171b;stroke:#441014}
+.vbp-bus-body{fill:#084f88;stroke:#27a9cc}
+.vbp-bus-window{fill:#dff5ff;stroke:#27a9cc}
+.vbp-bus-divider{stroke:#084f88}
+.vbp-bus-grille{fill:#08375d;stroke:#27a9cc}
+.vbp-bus-grille-lines,.vbp-bus-bumper{stroke:#27a9cc}
+.vbp-bus-lamp{fill:#3bbce8;stroke:#084f88}
+.vbp-bus-wheel{fill:#08375d;stroke:#27a9cc;stroke-width:3}
+:root[data-theme="dark"] .vbp-bus-body{fill:#50caff;stroke:#030b14}
+:root[data-theme="dark"] .vbp-bus-window{fill:#f4fbff;stroke:#030b14}
+:root[data-theme="dark"] .vbp-bus-divider{stroke:#030b14}
+:root[data-theme="dark"] .vbp-bus-grille{fill:#030b14;stroke:#030b14}
+:root[data-theme="dark"] .vbp-bus-grille-lines,:root[data-theme="dark"] .vbp-bus-bumper{stroke:#030b14}
+:root[data-theme="dark"] .vbp-bus-lamp{fill:#030b14;stroke:#030b14}
+.vbp-logo-name{fill:#214f70}
+:root[data-theme="dark"] .vbp-logo-name{fill:#95e5ff}
+.vbp-logo-location{fill:#214f70}
+:root[data-theme="dark"] .vbp-logo-location{fill:#fff}
+.carrier-switcher button{display:inline-flex;align-items:center;gap:8px}
+.carrier-switcher button img{width:34px;height:28px;object-fit:contain;background:#fff}
+.carrier-switcher button .carrier-logo{width:34px;height:28px;flex:none}
+.reject-reason-form{display:grid;grid-template-columns:minmax(140px,1fr) auto;align-items:center;gap:8px}
+.reject-reason-form textarea{min-height:42px;resize:vertical;padding:8px;border:1px solid rgba(143,23,27,.3);background:transparent;color:inherit;font:12px 'Manrope',sans-serif}
+.download-edit-fields{display:grid;gap:8px;min-width:0}
+.download-edit-fields input{width:100%;min-width:0}
+.download-file-input{font:11px 'DM Mono',monospace}
+.download-card[aria-disabled="true"]{opacity:.55;cursor:not-allowed}
+.download-edit-fields{width:100%}
+.download-edit-fields .photo-upload{display:block;width:max-content;max-width:100%;overflow:hidden}
+.reject-reason-form{min-width:210px}
+.reject-reason-form textarea{width:100%}
+.applications-table select{padding:10px;border:1px solid rgba(143,23,27,.28);background:transparent;color:var(--navy)}
+.download-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:14px}
+.download-card{display:flex;min-height:100px;flex-direction:column;justify-content:space-between;gap:16px;padding:18px;border:1px solid rgba(143,23,27,.3);background:transparent;color:var(--navy);text-align:left;text-decoration:none}
+.download-card strong{font-size:15px}
+.download-card span{font:11px 'DM Mono',monospace;overflow-wrap:anywhere}
+a.download-card:hover{border-color:var(--orange);background:rgba(240,189,24,.1)}
+.vehicle-condition{display:block;width:100%;padding:8px 12px;font:11px 'DM Mono',monospace;font-weight:700}
+.vehicle-condition.is-fault{background:#a80f2d;color:#fff}
+.vehicle-condition.is-workshop{background:#ffd400;color:#111}
+:root[data-theme="dark"][data-carrier="vbp"] .vehicle-condition.is-fault{background:#146da5;color:#fff}
+:root[data-theme="dark"][data-carrier="vbp"] .vehicle-condition.is-workshop{background:#58caff;color:#041523}
+:root[data-theme="dark"] .download-card{border-color:#545454;color:#f5f5f5;background:#111}
+:root[data-theme="dark"][data-carrier="vbp"] .download-card{border-color:#247bb0;color:#f4fbff;background:#071a2c}
+:root[data-theme="dark"] .applications-table select{background:#111;color:#f5f5f5;border-color:#494949}
+:root[data-theme="dark"] .reject-reason-form textarea{background:#111;color:#f5f5f5;border-color:#494949}
+:root[data-theme="dark"][data-carrier="vbp"] .fleet-card-text span{color:#f4fbff}
+.theme-toggle{border:1px solid currentColor;background:transparent;color:inherit;padding:9px 12px;font:11px 'DM Mono',monospace;text-transform:uppercase;cursor:pointer}
+.issue-photo-list{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+.issue-photo-list img{width:100px;height:76px;object-fit:cover;border:1px solid rgba(143,23,27,.24)}
+.application-cancel-form{display:flex;flex-wrap:wrap;gap:8px}
+.application-cancel-form input{min-width:180px;padding:8px;border:1px solid rgba(143,23,27,.3);background:transparent;color:inherit}
+.application-cancel-form button{border:1px solid currentColor;background:transparent;color:inherit;padding:8px 12px;cursor:pointer}
+.assignment-edit-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:18px 0;border-bottom:1px solid rgba(143,23,27,.2)}
+.dashboard-list .driver-assignment-card{grid-template-columns:64px minmax(0,1fr) max-content;gap:16px;padding:18px 12px}
+.assignment-date-badge{display:grid;justify-items:center;gap:4px;font:10px 'DM Mono',monospace;color:var(--orange)}
+.assignment-date-badge strong{font-size:22px;color:var(--navy)}
+.assignment-card-details{display:grid;gap:5px;min-width:0}
+.assignment-card-details strong,.assignment-card-details p,.assignment-card-details small{overflow-wrap:anywhere}
+.assignment-card-details p{margin:0;color:#657781;font-size:13px}
+.assignment-card-details small{font-size:12px;line-height:1.45;color:#53616a}
+.driver-assignment-card .fleet-status{white-space:nowrap}
+.assignment-edit-form input,.assignment-edit-form select{min-width:0;padding:10px;border:1px solid rgba(143,23,27,.28);background:transparent;color:var(--navy);font:13px 'Manrope',sans-serif}
+.assignment-edit-form>strong{grid-column:1/-1}
+.assignment-edit-form .fleet-remove{justify-self:end}
+.assignment-delete-button{justify-self:end;border:1px solid currentColor;background:transparent;color:inherit;padding:9px 12px;cursor:pointer}
+.date-range-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.date-range-fields label{display:grid;gap:6px}
+.auth-logout{border:1px solid var(--navy);padding:10px 14px;background:transparent;color:var(--navy);font:11px 'DM Mono',monospace;text-transform:uppercase;cursor:pointer}
+.workshop-section{margin-top:42px;padding-top:26px;border-top:1px solid rgba(143,23,27,.25)}
+.workshop-section h3{margin:0 0 20px;font-size:22px}
+.workshop-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:20px}
+.workshop-form input,.workshop-form select{min-width:0;padding:12px;border:1px solid rgba(143,23,27,.28);background:transparent;color:var(--navy);font:13px 'Manrope',sans-serif}
+.workshop-form label{display:grid;gap:6px;font-size:12px}
+.workshop-list{display:grid;gap:10px}
+.workshop-list article,.contact-inbox article,.report-appeal{position:relative;padding:16px;border:1px solid rgba(143,23,27,.2);background:rgba(255,255,255,.22)}
+.workshop-list article strong,.workshop-list article span{display:block}
+.workshop-list article .fleet-remove{position:absolute;right:10px;top:10px}
+.approve-extra-form{display:flex;flex-wrap:wrap;gap:8px}
+.approve-extra-form input{min-width:150px;padding:9px;border:1px solid rgba(143,23,27,.28);background:transparent;color:var(--navy)}
+.report-appeal-form{margin-top:18px}
+.report-appeal{margin:14px 0}
+.report-appeal a{display:block;margin:5px 0;color:var(--orange)}
+.report-appeal pre{max-height:220px;overflow:auto;white-space:pre-wrap;font:12px 'DM Mono',monospace}
+.contact-mini-form{display:grid;gap:8px;margin:10px 0;padding:14px;border:1px solid rgba(143,23,27,.28);background:rgba(255,255,255,.26)}
+.contact-mini-form input,.contact-mini-form textarea{width:100%;padding:10px;border:1px solid rgba(143,23,27,.28);background:transparent;color:var(--navy);font:13px 'Manrope',sans-serif;resize:vertical}
+.contact-mini-form button{justify-self:start}
+.contact-mini-form small{color:var(--orange)}
+.footer-email{align-self:flex-start;border:0;padding:0;background:transparent;color:inherit;font:13px 'Manrope',sans-serif;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.contact-modal{max-width:480px}
+.contact-inbox{margin-top:28px}
+.contact-inbox h3{margin-bottom:14px}
+.applications-table article{min-width:0}
+.applications-table article>strong,.applications-table article>span,.applications-table article>p,.applications-table article>small{max-width:100%;line-height:1.5;overflow-wrap:anywhere}
+.applications-table .report-actions{display:flex;flex-wrap:wrap;align-items:flex-start;gap:10px;min-width:0}
+.applications-table .report-actions>*{min-width:0;max-width:100%}
+.applications-table .reject-reason-form{width:min(100%,420px);grid-template-columns:minmax(0,1fr)}
+.reject-reason-actions{display:flex;flex-wrap:wrap;gap:8px}
+.panel-tabs button{white-space:normal;overflow-wrap:anywhere;line-height:1.35}
+.dashboard-heading>p{max-width:36ch;line-height:1.6;overflow-wrap:anywhere}
+:root[data-theme="dark"] .assignment-edit-form input,:root[data-theme="dark"] .assignment-edit-form select,:root[data-theme="dark"] .workshop-form input,:root[data-theme="dark"] .workshop-form select,:root[data-theme="dark"] .approve-extra-form input,:root[data-theme="dark"] .contact-mini-form input,:root[data-theme="dark"] .contact-mini-form textarea{background:#111;color:#f5f5f5;border-color:#494949}
+:root[data-theme="dark"] .workshop-list article,:root[data-theme="dark"] .contact-inbox article,:root[data-theme="dark"] .report-appeal{background:#111;color:#f5f5f5;border-color:#494949}
+:root[data-theme="dark"] .contact-mini-form{background:#111;border-color:#494949}
+:root[data-theme="dark"] .fleet-card-text span{color:#f5f5f5}
+:root[data-theme="dark"] .auth-logout{border-color:#df1736;color:#ffd400}
+@media(max-width:700px){.assignment-edit-form,.workshop-form,.date-range-fields{grid-template-columns:1fr}}
+@media(max-width:700px){.applications-table .report-actions,.applications-table .report-actions .reject-reason-form{width:100%}}
+@media(max-width:600px){.dashboard-list .driver-assignment-card{grid-template-columns:46px minmax(0,1fr);gap:10px}.driver-assignment-card .fleet-status{grid-column:2;justify-self:start}.assignment-date-badge strong{font-size:18px}}
+.public-message-toggle{display:flex;align-items:center;gap:10px;color:var(--navy)}
+.brigade-toggle{justify-self:start;border:1px solid var(--orange);background:transparent;color:var(--navy);padding:8px 12px;cursor:pointer}
+.public-message-section{padding:70px 9vw;background:#fff3ca;color:var(--navy)}
+.public-message-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:20px}
+.public-message-list article{border-top:2px solid var(--orange);padding-top:16px}
+.public-message-list h3{margin:8px 0}
+.recruitment-notice{margin:0;padding:14px 6vw;background:#ffe7a3;color:#8f171b;text-align:center;font-weight:700}
+@media(max-width:800px){.public-message-section{padding:50px 6vw}}
